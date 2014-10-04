@@ -27,9 +27,9 @@ class Alerts(models.Model):
 	time = models.TimeField(auto_now=True, auto_now_add=True)
 	date = models.DateField(auto_now=True, auto_now_add=True)
       
-	jira_ticket = models.CharField(max_length=255)
-	jira_time = models.TimeField(required=False)
-	jira_date = models.DateField(required=False)
+	jira_ticket = models.CharField(max_length=255, blank=True)
+	jira_time = models.TimeField(null=True, blank=True)
+	jira_date = models.DateField(null=True, blank=True)
         
 	class Meta:
 		get_latest_by = 'id'
