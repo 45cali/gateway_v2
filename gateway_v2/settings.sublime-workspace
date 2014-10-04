@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input_box"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 2137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
+			"settings":
+			{
+				"buffer_size": 693,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nicholas/tools/hyper/hyper.py",
+		"/home/nicholas/tools/check_hosts_dev_nick/uptime_check",
+		"/home/nicholas/Downloads/LNE_Global_Network_Engineering_Ticket_Detail_August.csv",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/partials/phone-detail.html",
+		"/home/nicholas/Downloads/net_connect.cfg",
+		"/home/nicholas/Downloads/David_Robles.pub",
+		"/home/nicholas/Downloads/net_connect.cfg-updated",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/js/controllers.js",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/index.html",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/js/filters.js",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/partials/phone-list.html",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/test/unit/filtersSpec.js",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/test/unit/controllersSpec.js",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/phones/t-mobile-g2.json",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/img/glyphicons-halflings.png",
+		"/home/nicholas/myVagrants/Angular/data/angular-phonecat/app/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js",
+		"/home/nicholas/Documents/djangocon2014/monday_admin_tut.txt",
+		"/home/nicholas/Documents/chef_teplates/bootstrap_chef_server.txt",
+		"/home/nicholas/Documents/chef_teplates/client.rb",
+		"/home/nicholas/Downloads/winsysnewclient.rdp",
+		"/home/nicholas/Documents/chef_teplates/bootstrap_a_node.txt",
+		"/home/nicholas/myVagrants/chef_test/Vagrantfile",
+		"/home/nicholas/Documents/scripts/programming/greaseMonkeyScripts/chimp.user.js",
+		"/home/nicholas/Documents/work_files/vpn/west-techops-internal.pcf",
+		"/home/nicholas/Documents/work_files/vpn/west-techops-outside.pcf",
+		"/home/nicholas/Downloads/dirty30.csv",
+		"/home/nicholas/Documents/jira_modules.py",
+		"/home/nicholas/Documents/work_files/splunkSnippits/appPaymentInstrument.txt",
+		"/home/nicholas/Downloads/a.rdp",
+		"/home/nicholas/Documents/work_files/splunkSnippits/addCvv.txt",
+		"/home/nicholas/Downloads/new_rpc_server.pl",
+		"/home/nicholas/Downloads/celiap_netsys_report.csv",
+		"/home/nicholas/virt_env/tim1/fqdn2/mysite/templates/page1.html",
+		"/home/nicholas/virt_env/tim1/fqdn2/mysite/templates/base.html",
+		"/media/nicholas/46B0308FB0308787/Documents and Settings/ken/csu.pm",
+		"/home/nicholas/Downloads/update_request.html",
+		"/home/nicholas/Documents/boots/boottest.html",
+		"/home/nicholas/Documents/school/el camino/Data Files for Text JS/Solutions/Tutorial.02/case3/world.htm",
+		"/home/nicholas/Documents/boots/js/jquery.js",
+		"/tmp/dirty_thirty.csv",
+		"/home/nicholas/Documents/work_files/splunkSnippits/addCvvSnips.txt",
+		"/home/nicholas/Documents/work_files/splunkSnippits/addToCartErrorsByRequests",
+		"/home/nicholas/Lucid/total_blank_problem_types.sql",
+		"/home/nicholas/Downloads/fqdn_check"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"delay_between_packet_to_send = 0",
+			"=?iso-8859-1?Q?",
+			"\"=?utf",
+			"?=\"",
+			"\"=?utf-8?Q?",
+			"\"=?utf-8?Q?.?=\"",
+			"=?utf",
+			"?=",
+			"' ) ||",
+			"                ( $problem_type eq '",
+			"tmcs",
+			"ifs",
+			".tmcs",
+			".(",
+			"*.",
+			"Payment Operations",
+			".tmcs",
+			" ",
+			".(",
+			"*.",
+			"TMOL",
+			"Ops",
+			"TMOL Ops",
+			"\\.tmcs",
+			"\\.tmcs'",
+			".*\\.",
+			"'.*\\.",
+			".tmcs",
+			"\\.tmcs",
+			".(",
+			"\\.(",
+			"*.",
+			"Shared/CCWebOps",
+			"Shared/CCWebOps (uk)",
+			".tmcs",
+			".(",
+			"*.",
+			"coreticketing (core)",
+			"    ",
+			"[Service Alert]",
+			"    ",
+			">>> *",
+			"Core Ticketing",
+			"Global EComm Transactional",
+			"Global EComm Backend Services",
+			"014",
+			"!",
+			" | ",
+			"|   ",
+			"        |",
+			"| No",
+			"| Yes            |",
+			"| closed",
+			"| Y",
+			"| c",
+			"|   2",
+			"      |   ",
+			"      ",
+			" Email",
+			" Left Messa",
+			" Neither",
+			" Phone",
+			"T   ",
+			"14T",
+			"\"",
+			"SUBJECT=\"",
+			"FROM=<alert@keynote.com>,SUBJECT=\"",
+			"sop1.sys.ash0.coresys.tmcs mailfeeder",
+			"    ",
+			"$$$",
+			"' ",
+			"|",
+			"| .",
+			"OR",
+			".",
+			"\"",
+			",",
+			"|"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"delay_between_packet_to_send = 5000",
+			"",
+			"\"=?utf",
+			"?=\"",
+			"",
+			"tmcs,",
+			"iff",
+			"\\.tmcs",
+			"\\.(",
+			".*\\.",
+			"",
+			"\\.tmcs",
+			"",
+			"\\.(",
+			".*\\.",
+			"",
+			"\\.tmcs'",
+			"\\.tmcs",
+			"'.*\\.",
+			".*\\.",
+			"\\.tmcs",
+			".tmcs",
+			"\\.(",
+			".(",
+			".*\\.",
+			"",
+			"\\.tmcs",
+			"\\.(",
+			".*\\.",
+			"",
+			",[Service Alert]",
+			"",
+			"app1",
+			"",
+			"2014",
+			"",
+			", ",
+			"",
+			",No",
+			",Yes",
+			",closed",
+			",Y",
+			",c",
+			",",
+			"",
+			", ",
+			", Email,",
+			", Left Message,",
+			", Neither,",
+			", Phone,",
+			"         ",
+			"14T       ",
+			"",
+			"') AND",
+			"'",
+			"( problem_type != '",
+			"$$$",
+			"AND",
+			"%' OR NOT LIKE",
+			"'%",
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								779,
+								779
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								637,
+								637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "settings.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
