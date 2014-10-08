@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
 				"in",
 				"input_box"
 			]
@@ -12,18 +56,95 @@
 	"buffers":
 	[
 		{
-			"file": "settings.py",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/templates/dashboard/index.html",
 			"settings":
 			{
-				"buffer_size": 2137,
+				"buffer_size": 2118,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
 			"settings":
 			{
-				"buffer_size": 693,
+				"buffer_size": 1295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
+			"settings":
+			{
+				"buffer_size": 399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/menu.css",
+			"file_size": 286,
+			"file_write_time": 130571089350098367,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "#cssmenu {"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix",
+				"name": "* {"
+			}
+		},
+		{
+			"contents": "<div class=\"header\">\n  <h1>Gateway</h1>\n</div>\n\n<div class='container'>\n\n  <div class='nav'>\n       London<br>\n       Paris<br>\n       Tokyo<br>\n  </div>\n\n\n\n\n\n  <div class='section'>\n\n\n\n\n\n      <div>Filter Out: \n        \n             <input type=\"checkbox\" id=\"inlineCheckbox1\" value=\"option1\"> New\n             <input type=\"checkbox\" id=\"inlineCheckbox2\" value=\"option2\"> Created  \n             <input type=\"checkbox\" id=\"inlineCheckbox1\" value=\"option1\"> New\n\n      </div>\n      <div>\n        <table >\n          <thead>\n            <tr>\n              <td>Id</td>\n              <td>Ticket Status</td>\n              <td>Monitoring Server</td>\n              <td>Alert Hostname</td>\n              <td>Alert Name</td>\n              <td>Alert Status</td>\n              <td>Inbound Time</td>\n              <td>Inbound Date</td>\n            </tr>\n          </thead>\n          <tbody>   \n          </tbody>\n            <tr>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n            </tr>\n        </table>\n      </div>\n\n      <div>\n        <table >\n          <thead>\n            <tr>\n              <td>Id</td>\n              <td>Ticket Status</td>\n              <td>Monitoring Server</td>\n              <td>Alert Hostname</td>\n              <td>Alert Name</td>\n              <td>Alert Status</td>\n              <td>Jira Ticket</td>\n              <td>Inbound Time</td>\n              <td>Inbound Date</td>\n              <td>Outbound Time</td>\n              <td>Outbound Date</td>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n              <td></td>\n            </tr>   \n          </tbody>\n        </table>\n      </div>\n\n  </div>      \n\n</div>\n",
+			"settings":
+			{
+				"buffer_size": 2045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/views.py",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 2276,
 				"line_ending": "Unix"
 			}
 		}
@@ -55,6 +176,9 @@
 	},
 	"file_history":
 	[
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/gateway_v2/settings.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/admin.py",
 		"/home/nicholas/tools/hyper/hyper.py",
 		"/home/nicholas/tools/check_hosts_dev_nick/uptime_check",
 		"/home/nicholas/Downloads/LNE_Global_Network_Engineering_Ticket_Detail_August.csv",
@@ -102,7 +226,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -116,6 +240,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	   '",
+			"[[ STATIC_URL ]]",
+			"}}",
+			"{{",
+			"cssmenu",
+			"tweeter",
 			"delay_between_packet_to_send = 0",
 			"=?iso-8859-1?Q?",
 			"\"=?utf",
@@ -201,6 +331,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"{{ STATIC_URL }}",
+			"]]",
+			"[[",
+			"menu",
+			"dashboard",
 			"delay_between_packet_to_send = 5000",
 			"",
 			"\"=?utf",
@@ -273,34 +408,34 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "settings.py",
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/templates/dashboard/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2137,
+						"buffer_size": 2118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								779,
-								779
+								809,
+								809
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 39.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -308,19 +443,223 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 693,
+						"buffer_size": 1295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								637,
-								637
+								1009,
+								1009
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/menu.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#cssmenu {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* {",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
 							]
 						],
 						"settings":
@@ -331,7 +670,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2032,
+								2032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -339,7 +736,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -375,7 +772,7 @@
 	"project": "settings.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

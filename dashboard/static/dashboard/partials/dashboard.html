@@ -1,0 +1,45 @@
+<div ng-controller="DashboardViewCtrl">
+          <div id='filter'>
+              New     <input type="checkbox" value="New"     ng-click="filters.ticket_status ='0'"> 
+              Created <input type="checkbox" value="Created" ng-click="filters.ticket_status ='1'"> 
+              Updated <input type="checkbox" value="Upated"  ng-click="filters.ticket_status ='2'"> 
+          </div>
+
+
+
+          <table>
+            <thead>
+              <tr>
+              <thead>Alerts</thead>
+              </tr>
+              <tr>
+                <td>Id</td>
+                <td>Ticket Status</td>
+                <td>Monitoring Server</td>
+                <td>Alert Host</td>
+                <td>Alert Name</td>
+                <td>Alert Status</td>
+                <td>Jira Ticket</td>
+                <td>Incoming Time</td>
+                <td>Timcong Date</td>
+                <td>Outbound Time</td>
+                <td>Outbound Date</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="alert in alerts | filter:filters">
+                <td>[[ alert.id ]]</td>
+                <td>[[ alert.ticket_status ]]</td>
+                <td>[[ alert.monitoring_server_name ]]</td>
+                <td>[[ alert.alert_hostname ]]</td>
+                <td>[[ alert.alert_name ]]</td>
+                <td>[[ alert.alert_status ]]</td>
+                <td>[[ alert.jira_ticket ]]</td>
+                <td>[[ alert.time ]]</td>
+                <td>[[ alert.date ]]</td>
+                <td>[[ alert.jira_time ]]</td>
+                <td>[[ alert.jira_date ]]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
