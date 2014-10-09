@@ -1,10 +1,13 @@
-angular.module('gatewayApp', [
+var app = angular.module('gatewayApp', [
 	   'ngRoute',
        'gatewayApp.controllers',
-       'gatewayApp.services',	
+       'gatewayApp.services',
        'ngResource',	
+       'gatewayApp.filters',
 
-		]).config(function($interpolateProvider, $routeProvider) {
+		]);
+
+	app.config(function($interpolateProvider, $routeProvider) {
 
   		$interpolateProvider.startSymbol('[[');
   		$interpolateProvider.endSymbol(']]');
@@ -15,6 +18,8 @@ angular.module('gatewayApp', [
   		});
 
 
-});
+    });
+
+    app.filter
 
 

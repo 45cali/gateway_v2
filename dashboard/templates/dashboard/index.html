@@ -6,44 +6,46 @@
   <title>Dashboard</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{% static 'dashboard/lib/normalize/normalize.v3.0.2.css' %}"/>
-  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/style.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/menu.css' %}"/>
   <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/style.css' %}"/>
 </head>
 <body>
 
 
-<div class='container'>
-
-    <header>
-          <h1>Gateway<h1>
-    </header>
-    <div ng-controller="NavCtrl">
-        <nav>
-            <ul>
-              <li ng-click="setRoute('/dashboard')">
-                Dashboard
-              </li>
-              <li ng-click="setRoute('/graphs')">
-                Graphs
-              </li>
-              <li>
-                <a href="/api-auth/login/?next=/api/get/">
-                  API
-                <a>
-              </li>
-              <li ng-click="setRoute('/search')">
-                Search
-              </li>
-              <li class='pull-right' >
-                <a href='/admin/'>
-                  Login
-                </a> 
-              </li>
-            </ul>
-        </nav>
-
-    <div ng-view></div>       
-    </div>    
+<div id='main-container'>
+        <div id='header-container'>
+            <header>
+                  <h1>Gateway<h1>
+            </header>
+            <div ng-controller="NavCtrl">
+                <nav>
+                    <ul>
+                      <li ng-click="setRoute('/dashboard')">
+                        Dashboard
+                      </li>
+                      <li ng-click="setRoute('/graphs')">
+                        Graphs
+                      </li>
+                      <li>
+                        <a href="/api-auth/login/?next=/api/get/">
+                          API
+                        <a>
+                      </li>
+                      <li ng-click="setRoute('/search')">
+                        Search
+                      </li>
+                      <li class='pull-right' >
+                        <a href='/admin/'>
+                          Login
+                        </a> 
+                      </li>
+                    </ul>
+                </nav>
+          </div>
+        </div>
+        <div id='body-container'>
+              <div ng-view></div>       
+        </div>
         
 
            
@@ -55,7 +57,7 @@
     <footer>
         This is the Footer
     </footer>
-
+ 
 </div>
 
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/lib/jquery/jquery-1.11.1.min.js"></script>
@@ -65,6 +67,6 @@
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/app.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/services.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/controllers.js"></script>
-
+<script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/filters.js"></script>
 </body>
 </html>
