@@ -2,11 +2,11 @@
 
         <div class='getInline'>
           
-          <label ng-repeat="ticketStatus in ticketStatusList">
-             [[ ticketStatus ]]&nbsp<input type="checkbox" >  
+          <label ng-repeat="(type, value) in ticketTypes">
+             [[ type ]]&nbsp<input type="checkbox" ng-model="ticketTypes[type]">  
           </label>
-          <label ng-repeat="alertstatus in alertStatusList">
-             [[ alertstatus ]]&nbsp<input type="checkbox" >  
+          <label ng-repeat="(type, value) in alertTypes">
+             [[ type ]]&nbsp<input type="checkbox" ng-model="alertTypes[type]">  
           </label>
 
         </div>
@@ -34,7 +34,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="alert in alerts | orderBy:predicate:reverse ">
+              <tr ng-repeat="alert in alerts | orderBy:predicate:reverse | ticketStatusFilter:ticketTypes | alertStatusFilter:alertTypes">
                 <td>[[ alert.id ]]</td>
                 <td>[[ alert.ticket_status ]]</td>
                 <td>[[ alert.monitoring_server_name ]]</td>

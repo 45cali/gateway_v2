@@ -14,27 +14,8 @@ dashCtrl.controller('DashboardViewCtrl', function ($scope, Alerts) {
 
     
 	$scope.ticketTypes = {new : true, updated : true, created : true };
-	$scope.alertTypes = {clear : true, info : true, warning : true, critical : true, major : true };
+	$scope.alertTypes  = {clear : true, info : true, warning : true, critical : true, major : true };
     
-
-
-
-
-
-
-    $scope.ticketStatusList = [
-     'new',
-     'updated',
-     'created'
-    ];
-
-     $scope.alertStatusList = [
-      'clear',
-	  'info',
-	  'warning',
-	  'critical',
-	  'major'
-     ];
 	
 });
 
