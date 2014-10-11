@@ -1,0 +1,65 @@
+            <div ng-show="modalShown" >
+                      <div class='ng-modal-overlay' ng-click="hideModal()"></div>
+                          <div class='ng-modal-dialog'>
+                            <div class='ng-modal-close' ng-click="hideModal()">
+                              <i class="fa fa-times"></i>
+                            </div>
+                            <div class='ng-modal-dialog-content'>
+                                              
+                                <div>
+                                      Id: [[ alertDetail.id ]]
+                                </div>
+                                <div>
+                                      Ticket Status: [[ alertDetail.ticket_status ]]
+                                </div>
+                                <div>
+                                      Monitoring Server: [[ alertDetail.monitoring_server_name ]]
+                                </div>
+                                <div>
+                                      Hostname: [[ alertDetail.alert_hostname ]]
+                                </div>
+                                <div>
+                                      Alert: [[ alertDetail.alert_name ]]
+                                </div>
+                                <div>
+                                      Status: [[ alertDetail.alert_status ]]
+                                </div>
+                                <div>
+                                      Jira Ticket: [[ alertDetail.Jira_ticket ]]
+                                </div>
+                                <div>
+                                      Time In: [[ alertDetail.time ]]
+                                </div>
+                                <div>
+                                       Date In: [[ alertDetail.date ]]
+                                </div>
+                                <div>
+                                      Time Out: [[ alertDetail.jira_time ]]
+                                </div>
+                                <div>
+                                      Date Out: [[ alertDetail.jira_date ]]
+                                </div>
+                                <div>
+                                      Alert Detail: [[ alertDetail.alert_detail ]]
+                                </div>
+
+                                <div class="modal-mail">
+                                  
+                                    <a class="mailto" href="mailto:?subject=[[ alertDetail.alert_name ]]%20is%20[[ alertDetail.alert_status ]]%20on%20[[ alertDetail.alert_hostname ]]&amp;body=Monitoring%20Server%3A%20[[ alertDetail.monitoring_server_name ]]%0A%0AHostname%3A%20[[ alertDetail.alert_hostname ]]%0A%0AAlert%3A%20[[ alertDetail.alert_name ]]%0A%0ATime%3A%20[[ alertDetail.time ]]%0A%0ADate%3A%20[[ alertDetail.date ]]%0A%0AJira%20Ticket%3A%20[[ alertDetail.Jira_ticket ]]%0A%0AAlert%20Detail%3A%0A%0A[[ alertDetail.alert_detail ]]%0A">email <i class="fa fa-send"></i></a> 
+                                        
+                                     
+                                </div>  
+                            </div>
+
+
+
+                 
+
+          
+
+                           </div>
+                     
+          
+
+
+            </div>

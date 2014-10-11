@@ -1,40 +1,52 @@
 <div ng-controller="DashboardViewCtrl">
-
+      <h3>
         <div class='getInline'>
           
-          <label ng-repeat="(type, value) in ticketTypes">
-             [[ type ]]&nbsp<input type="checkbox" ng-model="ticketTypes[type]">  
+          <label class="info" ng-repeat="(type, value) in ticketTypes">
+             <input type="checkbox" ng-model="ticketTypes[type]" >&nbsp[[ type ]]
           </label>
-          <label ng-repeat="(type, value) in alertTypes">
-             [[ type ]]&nbsp<input type="checkbox" ng-model="alertTypes[type]">  
+          <label ng-repeat="(type, value) in alertTypes" ng-class="type">
+             <input type="checkbox" ng-model="alertTypes[type]">&nbsp[[ type ]]  
           </label>
 
         </div>
+      </h3>  
         <br />
 
 
 
-          <table>
+          <table id='table1'>
             <thead>
               <tr>
-              <thead>Alerts</thead>
+                <td>Alerts</td>
               </tr>
+             
+            
               <tr>
-                <td ng-click="predicate = 'id'; reverse=!reverse">Id</td>
-                <td ng-click="predicate = 'ticket_status'; reverse=!reverse">Ticket Status</td>
-                <td ng-click="predicate = 'monitoring_server_name'; reverse=!reverse">Monitoring Server</td>
-                <td ng-click="predicate = 'alert_hostname'; reverse=!reverse">Alert Host</td>
-                <td ng-click="predicate = 'alert_name'; reverse=!reverse">Alert Name</td>
-                <td ng-click="predicate = 'alert_status'; reverse=!reverse">Alert Status</td>
-                <td ng-click="predicate = 'jira_ticket'; reverse=!reverse">Jira Ticket</td>
-                <td ng-click="predicate = 'time'; reverse=!reverse">In Time</td>
-                <td ng-click="predicate = 'date'; reverse=!reverse">In Date</td>
-                <td ng-click="predicate = 'jira_time'; reverse=!reverse">Out Time</td>
-                <td ng-click="predicate = 'jira_date'; reverse=!reverse">Out Date</td>
+                
+                <td class="info" ng-click="predicate = 'id'; reverse=!reverse">Id</td>
+                <td class="info" ng-click="predicate = 'ticket_status'; reverse=!reverse">Ticket Status</td>
+                <td class="info" ng-click="predicate = 'monitoring_server_name'; reverse=!reverse">Monitoring Server</td>
+                <td class="info" ng-click="predicate = 'alert_hostname'; reverse=!reverse">Hostname</td>
+                <td class="info" ng-click="predicate = 'alert_name'; reverse=!reverse">Alert</td>
+                <td class="info" ng-click="predicate = 'alert_status'; reverse=!reverse">Status</td>
+                <td class="info" ng-click="predicate = 'jira_ticket'; reverse=!reverse">Jira Ticket</td>
+                <td class="info" ng-click="predicate = 'time'; reverse=!reverse">Time In</td>
+                <td class="info" ng-click="predicate = 'date'; reverse=!reverse">Date In</td>
+                <td class="info" ng-click="predicate = 'jira_time'; reverse=!reverse">Time Out</td>
+                <td class="info" ng-click="predicate = 'jira_date'; reverse=!reverse">Date Out</td>
+                  
               </tr>
+                      
             </thead>
             <tbody>
-              <tr ng-repeat="alert in alerts | orderBy:predicate:reverse | ticketStatusFilter:ticketTypes | alertStatusFilter:alertTypes">
+              <tr ng-repeat="alert in alerts 
+                              | orderBy:predicate:reverse 
+                              | ticketStatusFilter:ticketTypes 
+                              | alertStatusFilter:alertTypes" 
+                  ng-class="alert.alert_status"
+                  ng-click="toggleModal(alert)" >
+
                 <td>[[ alert.id ]]</td>
                 <td>[[ alert.ticket_status ]]</td>
                 <td>[[ alert.monitoring_server_name ]]</td>
@@ -46,7 +58,12 @@
                 <td>[[ alert.date ]]</td>
                 <td>[[ alert.jira_time ]]</td>
                 <td>[[ alert.jira_date ]]</td>
+
               </tr>
             </tbody>
           </table>
-        </div>
+
+                  <div ng-include src="'/static/dashboard/partials/modal_ticketdetail.html'"></div>
+              
+
+</div>

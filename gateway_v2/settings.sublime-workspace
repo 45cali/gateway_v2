@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"backround",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mod",
+				"modalShown"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"fo",
 				"forEach"
 			],
@@ -14,10 +54,6 @@
 			[
 				"in",
 				"inline-block"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"bo",
@@ -48,14 +84,6 @@
 				"thead	Tag"
 			],
 			[
-				"padd",
-				"padding-right"
-			],
-			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"u",
 				"ul	Tag"
 			],
@@ -82,10 +110,6 @@
 			[
 				"t",
 				"td	Tag"
-			],
-			[
-				"ma",
-				"max_length"
 			]
 		]
 	},
@@ -95,7 +119,7 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/templates/dashboard/index.html",
 			"settings":
 			{
-				"buffer_size": 2532,
+				"buffer_size": 2794,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,31 +127,7 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
 			"settings":
 			{
-				"buffer_size": 1163,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
-			"settings":
-			{
-				"buffer_size": 2262,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
-			"settings":
-			{
-				"buffer_size": 464,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
-			"settings":
-			{
-				"buffer_size": 146,
+				"buffer_size": 757,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,49 +135,76 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 749,
+				"buffer_size": 941,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/serializer.py",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
 			"settings":
 			{
-				"buffer_size": 397,
+				"buffer_size": 2936,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/menu.css",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/modal.css",
 			"settings":
 			{
-				"buffer_size": 1048,
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/glyphicons.css",
+			"settings":
+			{
+				"buffer_size": 8227,
 				"line_ending": "Unix",
-				"name": "#cssmenu {"
+				"name": "/* NOTICE:  This is the minimum required block of"
 			}
 		},
 		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
 			"settings":
 			{
-				"buffer_size": 114,
+				"buffer_size": 2300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "  /* A centered div above the overlay with a box shadow. \n  z-index:10000;\n  position: absolute;\n  width: 50%; /* Default \n\n  Center the dialog \n  \n\n  transform: translate(-50%, -50%);\n  -webkit-transform: translate(-50%, -50%);\n  -moz-transform: translate(-50%, -50%);\n\n  background-color: #fff;\n  box-shadow: 4px 4px 80px #000;\n  \n  top: 50%;\n  left: 50%;\n  background-color: white;\n  */",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*  css menu-layout  */\n*{\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: 'Open Sans', sans-serif;\n}\n\n\n\n#main-container {\n    width: 100%;\n    height: 100%;\n}\n\n#header-container {\n  border-style: solid;\n  border-color: white;\n  border-radius: 7px;\n  background-color: #3366CC\n\n}\n\n#body-container {\n  border-style: solid;\n  border-color: white;\n  color: #585858;\n}\n\n\n\nheader {\n  background-color: #3366CC;\n  color: white;\n  height: 60px;\n  margin-left: 5px;\n\n\n}\n\nfooter {\n  background-color: white;\n  bottom: 0;\n  position:fixed; \n  height: 25px;\n  width: 100%;\n  padding: 10px;\n}\n\nnav {\n  background-color: #3366CC;\n  color: white;\n  height: 40px;\n  margin:3px;\n  font-size:large;\n\n}\n\nnav ul li {\n  display: inline;\n  padding-right: 10px;\n  border-style: solid;\n  border-color: #3366CC;\n  border-radius: 3px;\n  border-width: 1px;\n  margin-left: 5px;\n  margin-right: 5px;\n  \n\n}\n\nnav ul li a {\n  color:white;\n  text-decoration:none\n}\n\nnav ul li.pull-right {\n  float: right;\n  padding-right: 0px;\n\n}\n\nnav ul li:hover {\n  border-style: solid;\n  border-color: white;\n}\n\n#body-container {\n\n}\n\n.getInline {\n  float: left;\n  margin-left: 1%;\n  font-size:large;\n  margin-top: 0.5%;\n\n}\n\ntable#table1 {\n\n    width:98%; \n    margin-left:1%; \n    margin-right:1%;\n    margin-top: 2%;\n  }\n\nthead td {\n  \n  font-weight:bold;\n}\n\ntable td {\n  padding-top: 2px; \n\n}\n\n.clear:hover {\n  color: #009933; \n  \n}\n\n.info:hover {\n  color: #3366CC; \n  \n}\n.critical:hover {\n  color: #990000; \n  \n}\n.warning:hover {\n  color: #CC6600; \n  \n}\n.major:hover {\n  color: #990000; \n\n} \n\ntable tr.alert-row:hover {\n  color: #3366CC; \n  background-color: #E8E8E8;\n}\n\n",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+			"file_size": 1657,
+			"file_write_time": 130574511054295618,
+			"settings":
+			{
+				"buffer_size": 1632,
 				"line_ending": "Unix",
 				"name": "* {"
 			}
 		},
 		{
-			"file": "urls.py",
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/directives.js",
 			"settings":
 			{
-				"buffer_size": 750,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/views.py",
-			"settings":
-			{
-				"buffer_size": 255,
+				"buffer_size": 181,
 				"line_ending": "Unix"
 			}
 		},
@@ -185,7 +212,7 @@
 			"file": "settings.py",
 			"settings":
 			{
-				"buffer_size": 2276,
+				"buffer_size": 2369,
 				"line_ending": "Unix"
 			}
 		}
@@ -217,10 +244,22 @@
 	},
 	"file_history":
 	[
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/templates/modal.html",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/ticketdetail.html",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/gateway_v2/settings.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/views.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/menu.css",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/gateway_v2/urls.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/serializer.py",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+		"/home/nicholas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nicholas/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/nicholas/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/apiviews.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
-		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/gateway_v2/settings.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/admin.py",
 		"/home/nicholas/tools/hyper/hyper.py",
 		"/home/nicholas/tools/check_hosts_dev_nick/uptime_check",
@@ -269,7 +308,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -280,9 +319,20 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"exit",
+			"detail",
+			" alert",
+			"</td>",
+			"<td>",
+			"                ",
+			"hover-highlight",
+			"teader-data-cell",
+			"#6699CC",
+			"ng-click=",
+			"update",
 			"true",
 			"	   '",
 			"[[ STATIC_URL ]]",
@@ -375,6 +425,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"alertDetail",
+			" detail",
+			"</div>",
+			"<div>",
+			"",
+			"info",
+			"hover-highlight",
+			"#3366CC",
+			"class=\"teader-data-cell\" ng-click=",
 			"'true'",
 			"{{ STATIC_URL }}",
 			"]]",
@@ -453,7 +512,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -462,15 +521,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2532,
+						"buffer_size": 2794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2516,
-								2516
+								1866,
+								1866
 							]
 						],
 						"settings":
@@ -480,10 +539,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 156.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -492,15 +551,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1163,
+						"buffer_size": 757,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64,
-								64
+								757,
+								757
 							]
 						],
 						"settings":
@@ -508,64 +567,6 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -573,48 +574,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 749,
+						"buffer_size": 941,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								508,
-								508
+								821,
+								821
 							]
 						],
 						"settings":
@@ -626,63 +599,123 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/serializer.py",
+					"buffer": 3,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 397,
+						"buffer_size": 2936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2927,
+								2927
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 369.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/menu.css",
+					"buffer": 4,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/modal.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1048,
+						"buffer_size": 719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								719,
+								719
 							]
 						],
 						"settings":
 						{
-							"auto_name": "#cssmenu {",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/glyphicons.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2666,
+								2666
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* NOTICE:  This is the minimum required block of",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -690,82 +723,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+					"buffer": 7,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 114,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								77,
+								77
 							]
 						],
 						"settings":
 						{
-							"auto_name": "* {",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 750,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								131,
-								131
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -775,20 +753,105 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "settings.py",
+					"buffer": 8,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2276,
+						"buffer_size": 478,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2032,
-								2032
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1632,
+								1632
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* {",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 1443.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/directives.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2262,
+								2262
 							]
 						],
 						"settings":
@@ -798,10 +861,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 858.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

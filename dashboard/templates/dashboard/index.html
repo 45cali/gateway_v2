@@ -6,8 +6,10 @@
   <title>Dashboard</title>
   
   <link rel="stylesheet" type="text/css" href="{% static 'dashboard/lib/normalize/normalize.v3.0.2.css' %}"/>
-  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/menu.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/lib/font-awesome-4.2.0/css/font-awesome.css' %}"/>
   <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/style.css' %}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'dashboard/css/modal.css' %}"/>
+    
 </head>
 <body>
 
@@ -55,7 +57,7 @@
 
 
     <footer>
-        This is the Footer
+        This is the Footer <i class="fa fa-times"></i>
     </footer>
  
 </div>
@@ -68,5 +70,6 @@
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/services.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/controllers.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/filters.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}dashboard/js/directives.js"></script>
 </body>
 </html>

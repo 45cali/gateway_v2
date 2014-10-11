@@ -1,8 +1,9 @@
 var app = angular.module('gatewayApp', [
 	   'ngRoute',
+	   'ngResource',
        'gatewayApp.controllers',
        'gatewayApp.services',
-       'ngResource',	
+       'gatewayApp.directives',
        'gatewayApp.filters',
 
 		]);
@@ -20,6 +21,10 @@ var app = angular.module('gatewayApp', [
 
     });
 
-    app.filter
+	app.run(function($rootScope, $templateCache) {
+   		$rootScope.$on('$viewContentLoaded', function() {
+      		$templateCache.removeAll();
+   		});
+	});
 
 

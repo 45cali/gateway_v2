@@ -86,6 +86,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+#STATIC_DIRS = (
+#        os.path.join(BASE_DIR, "dashboard/static/dashboard/img/"),
+#    )
+
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',)
 }
