@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"backround",
 				"background-color"
 			],
@@ -72,10 +76,6 @@
 				"border-bottom"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"border",
 				"border-color"
 			],
@@ -119,23 +119,7 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/templates/dashboard/index.html",
 			"settings":
 			{
-				"buffer_size": 2794,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
-			"settings":
-			{
-				"buffer_size": 757,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 941,
+				"buffer_size": 2723,
 				"line_ending": "Unix"
 			}
 		},
@@ -151,32 +135,35 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/modal.css",
 			"settings":
 			{
-				"buffer_size": 719,
+				"buffer_size": 931,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/glyphicons.css",
-			"settings":
-			{
-				"buffer_size": 8227,
-				"line_ending": "Unix",
-				"name": "/* NOTICE:  This is the minimum required block of"
 			}
 		},
 		{
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
 			"settings":
 			{
-				"buffer_size": 2300,
+				"buffer_size": 3278,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "  /* A centered div above the overlay with a box shadow. \n  z-index:10000;\n  position: absolute;\n  width: 50%; /* Default \n\n  Center the dialog \n  \n\n  transform: translate(-50%, -50%);\n  -webkit-transform: translate(-50%, -50%);\n  -moz-transform: translate(-50%, -50%);\n\n  background-color: #fff;\n  box-shadow: 4px 4px 80px #000;\n  \n  top: 50%;\n  left: 50%;\n  background-color: white;\n  */",
+			"contents": "33   TMOL WebOps     [Service Alert] Nimbus:check_queue_size is clear on mgr1.amgr.phx3.websys.tmcs! \n25   TM Plus     check_selectDelivery is critical please escalate\n18   Shared Services WebOps     [Service Alert] Nimbus:solr_dumper_exception is clear on mgr1.search.ams1.websys.tmcs! \n17   TMOL WebOps     [Service Alert] Nimbus:memory/physical is clear on app1.tmol.stg1.websys.tmcs! \n16   TMOL WebOps     [Service Alert] Nimbus:check_heartbeat is clear on app1.cods.jash1.syseng.tmcs! \n15   Core Ticketing     [Service Alert] Nimbus:ct-mgr-avail is clear on nca.coresys.tmcs! \n14   TM Plus     check_addToCart is critical please escalate\n12   Linux Systems Europe     [Service Alert] Nimbus:cpu/total is clear on gwt2.mf.ams2.coresys.tmcs! \n11   Windows Systems Engineering     [Service Alert] Nimbus:app47.arc.ash2.winsys.tmcs is clear on app47.arc.ash2.winsys.tmcs! \n10   Windows Systems Engineering     [Service Alert] Nimbus:res3.arc.ash2.winsys.tmcs is clear on res3.arc.ash2.winsys.tmcs! \n10   Windows Systems Engineering     [Service Alert] Nimbus:memory/paging is clear on tms-a-www-05.tms.ams3.winsys.tmcs! \n10   Shared Services WebOps     [Service Alert] Nimbus:CheckTm360 is critical on jenkins1.mgmt.tools4.coresys.tmcs!\n10   Jetson Search     TOC-Tier1-Rundeck Jetson: Jenkins Alert: Replication Alert\n10   Dev Search     TOC-Jetson: Splunk Alert: FSS ElapsedMillis Alert - Escalate to - Dev Search\n10   Core Ticketing     [Service Alert] Nimbus:ct-mgr-avail is clear on mxc.coresys.tmcs! \n 9   Windows Systems Engineering     [Service Alert] Nimbus:memory/pagefile is clear on gmi-b-sql-a02.gmi.livelca1.winsys.tmcs! \n 9   TM DB     [Service Alert] Nimbus:oracle_db is major on odb1.dba.mprod2.coresys.tmcs! \n 9   Shared Services WebOps     [Service Alert] Nimbus:solr_dumper_exception is clear on mgr1.search.lca1.websys.tmcs! \n 9   CoreSys     [Service Alert] Nimbus:snap_lag is clear on fls1.sys.phx1.coresys.tmcs! \n 8   Windows Systems Engineering     [Service Alert] Nimbus:digit1-app52.arc.ash2.winsys.tmcs is clear on digit1-app52.arc.ash2.winsys.tmcs! \n 8   TMOL WebOps     [Service Alert] Nimbus:check_procs_httpd is clear on app1.tmol.ams0.websys.tmcs! \n 8   TMOL WebOps     [Service Alert] Nimbus:check_heartbeat is clear on app2.cods.jash1.syseng.tmcs! \n 8   TM DB     [Service Alert] Nimbus:ora_check_alert is major on odb1.dba.mprod2.coresys.tmcs! \n 8   Shared Services WebOps     Ticketmaster - Search & Buy - LAN (Warn) Avail. Alert: 75.000% \n 8   Linux Systems Europe     [Service Alert] Nimbus:cpu/total is clear on gwt3.mf.ams2.coresys.tmcs! \n 8   Dev TAP     Splunk Alert: pxy.api.com.access 502 errors - Escalate to Dev TAP Oncall\n 8   CoreSys     [Service Alert] Nimbus:snap_lag is clear on fls1.sys.ash1.coresys.tmcs! \n 7   Windows Systems Engineering     [Service Alert] Nimbus:memory/paging is clear on tms-a-trm-01.sys.ams1.winsys.tmcs! \n 7   TM Plus     check_placeOrder is critical please escalate\n 7   Release Management      [Service Alert] RELEASE MANAGEMENT Zabbix trapper processes more than 75% busy is PROBLEM on zbxus1.mgmt.tash1.syseng.tmcs! \n 6   TM Plus     Resale selectDelivery Error is above 1.5% \n 6   TMOL WebOps     [Service Alert] Nimbus:cpu/total is clear on mgr2.storm.jash1.syseng.tmcs! \n 6   TMOL WebOps     [Service Alert] Nimbus:cpu/total is clear on app2.tmol.stg1.websys.tmcs! \n 6   TMOL WebOps     [Service Alert] Nimbus:check_procs_httpd is clear on pxy1.amgr.eustg1.websys.tmcs! \n 6   Linux Systems Europe     [Service Alert] Nimbus:snmpget|nas1.sys.stg3.coresys.tmcs.fsMaxUsedBytesPerCent is clear on nas1.sys.stg3.coresys.tmcs! \n 6   Linux Systems Europe     [Service Alert] Nimbus:snmpget|nas1.sys.dqs3.websys.tmcs.snmp_fsMaxUsedBytesPerCent is clear on nas1.sys.dqs3.websys.tmcs! \n 6   CRM NTF     [Service Alert] Nimbus:disk// is clear on mta4.mta.cft1.coresys.tmcs! \n 5   Windows Systems Engineering     [Service Alert] Nimbus:vipMonitor/GMI_PROD_ISERV_SVR_80 is critical on mgr1.gmi.livelca1.websys.tmcs! \n 5   Windows Systems Engineering     [Service Alert] Nimbus:snmpget|fls2.sys.ams3.winsys.tmcs.snmp_fsMaxUsedBytesPerCent is clear on fls2.sys.ams3.winsys.tmcs! \n 5   Windows Systems Engineering     [Service Alert] Nimbus:memory/pagefile is major on gmi-b-sql-a02.gmi.livelca1.winsys.tmcs! \n 5   WebSys     [Service Alert] Nimbus:check_procs_fisheye is clear on vcs2.int.tools1.websys.tmcs! \n 5   TM Vista     CAmuseumnature-vis-tor-l0_Device_Down \n 5   TMOL WebOps     [Service Alert] Nimbus:memory/swap is clear on app1.tmol.stg1.websys.tmcs! \n 5   TMOL WebOps     [Service Alert] Nimbus:check_tmbatch_jobs is clear on mgr1.tmol.tools1.websys.tmcs! \n 5   TM DB     [Service Alert] Nimbus:ora_check_alert is major on odb1.dba.mprod1.coresys.tmcs! \n 5   Strategic Systems     [Service Alert] Nimbus:disk//fls1/vol0 is clear on ops1.sys.jash1.syseng.tmcs!\n 5   Shared Services WebOps     Ticketmaster - Search & Buy - LAN (Warn) Avail. Alert: 77.770% \n 5   Shared Services WebOps     Ticketmaster - Search & Buy - LAN (Crit) Avail. Alert: 66.660% \n 5   Shared Services WebOps     [Service Alert] Nimbus:check_tweb_t3 is clear on app12.tweb.twprod2.websys.tmcs! \n 5   Payment Systems App Support     [Service Alert] Nimbus:ccauth is clear on mgr1.ps.phx1.coresys.tmcs! \n",
+			"file": "/home/nicholas/Documents/escalated-alerts-july-to-october.csv",
+			"file_size": 4948,
+			"file_write_time": 130576877042509802,
 			"settings":
 			{
-				"buffer_size": 389,
+				"buffer_size": 5256,
+				"line_ending": "Unix",
+				"name": "33,TMOL WebOps,[Service Alert] Nimbus:check_queue_"
+			}
+		},
+		{
+			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 846,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,15 +171,12 @@
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
 			"settings":
 			{
-				"buffer_size": 478,
+				"buffer_size": 630,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "/*  css menu-layout  */\n*{\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: 'Open Sans', sans-serif;\n}\n\n\n\n#main-container {\n    width: 100%;\n    height: 100%;\n}\n\n#header-container {\n  border-style: solid;\n  border-color: white;\n  border-radius: 7px;\n  background-color: #3366CC\n\n}\n\n#body-container {\n  border-style: solid;\n  border-color: white;\n  color: #585858;\n}\n\n\n\nheader {\n  background-color: #3366CC;\n  color: white;\n  height: 60px;\n  margin-left: 5px;\n\n\n}\n\nfooter {\n  background-color: white;\n  bottom: 0;\n  position:fixed; \n  height: 25px;\n  width: 100%;\n  padding: 10px;\n}\n\nnav {\n  background-color: #3366CC;\n  color: white;\n  height: 40px;\n  margin:3px;\n  font-size:large;\n\n}\n\nnav ul li {\n  display: inline;\n  padding-right: 10px;\n  border-style: solid;\n  border-color: #3366CC;\n  border-radius: 3px;\n  border-width: 1px;\n  margin-left: 5px;\n  margin-right: 5px;\n  \n\n}\n\nnav ul li a {\n  color:white;\n  text-decoration:none\n}\n\nnav ul li.pull-right {\n  float: right;\n  padding-right: 0px;\n\n}\n\nnav ul li:hover {\n  border-style: solid;\n  border-color: white;\n}\n\n#body-container {\n\n}\n\n.getInline {\n  float: left;\n  margin-left: 1%;\n  font-size:large;\n  margin-top: 0.5%;\n\n}\n\ntable#table1 {\n\n    width:98%; \n    margin-left:1%; \n    margin-right:1%;\n    margin-top: 2%;\n  }\n\nthead td {\n  \n  font-weight:bold;\n}\n\ntable td {\n  padding-top: 2px; \n\n}\n\n.clear:hover {\n  color: #009933; \n  \n}\n\n.info:hover {\n  color: #3366CC; \n  \n}\n.critical:hover {\n  color: #990000; \n  \n}\n.warning:hover {\n  color: #CC6600; \n  \n}\n.major:hover {\n  color: #990000; \n\n} \n\ntable tr.alert-row:hover {\n  color: #3366CC; \n  background-color: #E8E8E8;\n}\n\n",
 			"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
-			"file_size": 1657,
-			"file_write_time": 130574511054295618,
 			"settings":
 			{
 				"buffer_size": 1632,
@@ -244,6 +228,9 @@
 	},
 	"file_history":
 	[
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/glyphicons.css",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/templates/modal.html",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/ticketdetail.html",
@@ -253,11 +240,9 @@
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/gateway_v2/urls.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/serializer.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/services.js",
-		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
 		"/home/nicholas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/nicholas/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/nicholas/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
-		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/rest/apiviews.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/models.py",
 		"/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/admin.py",
@@ -322,6 +307,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			",  ",
+			"     ",
+			" 9",
+			"   ",
+			"     ",
+			",  ",
 			"exit",
 			"detail",
 			" alert",
@@ -425,6 +416,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"     ",
+			"",
+			"9",
+			",",
+			"",
+			",",
 			"alertDetail",
 			" detail",
 			"</div>",
@@ -512,7 +509,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -521,15 +518,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2794,
+						"buffer_size": 2723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1866,
-								1866
+								2723,
+								2723
 							]
 						],
 						"settings":
@@ -539,71 +536,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 894.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/filters.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								757,
-								757
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								821,
-								821
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/dashboard.html",
 					"semi_transient": false,
 					"settings":
@@ -615,8 +555,8 @@
 						"selection":
 						[
 							[
-								2927,
-								2927
+								2936,
+								2936
 							]
 						],
 						"settings":
@@ -626,27 +566,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 369.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/modal.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 719,
+						"buffer_size": 931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								719,
-								719
+								929,
+								929
 							]
 						],
 						"settings":
@@ -656,34 +596,65 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 39.0,
+						"translation.y": 647.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/glyphicons.css",
+					"buffer": 3,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8227,
+						"buffer_size": 3278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2666,
-								2666
+								2970,
+								2970
 							]
 						],
 						"settings":
 						{
-							"auto_name": "/* NOTICE:  This is the minimum required block of",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 722.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/nicholas/Documents/escalated-alerts-july-to-october.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5255,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "33,TMOL WebOps,[Service Alert] Nimbus:check_queue_",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -693,80 +664,49 @@
 					"type": "text"
 				},
 				{
+					"buffer": 5,
+					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								739,
+								739
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 372.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
 					"buffer": 6,
-					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/partials/modal_ticketdetail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1001,
-								1001
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								393
+								624,
+								624
 							]
 						],
 						"settings":
@@ -777,11 +717,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/css/style.css",
 					"semi_transient": false,
 					"settings":
@@ -793,8 +733,8 @@
 						"selection":
 						[
 							[
-								1632,
-								1632
+								365,
+								365
 							]
 						],
 						"settings":
@@ -802,15 +742,15 @@
 							"auto_name": "* {",
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 1443.0,
+						"translation.x": 0.0,
+						"translation.y": 119.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 8,
 					"file": "/home/nicholas/myVagrants/gateway_v2/data/app/gateway_v2/dashboard/static/dashboard/js/directives.js",
 					"semi_transient": false,
 					"settings":
@@ -834,11 +774,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "settings.py",
 					"semi_transient": false,
 					"settings":
@@ -850,8 +790,8 @@
 						"selection":
 						[
 							[
-								2262,
-								2262
+								2268,
+								2268
 							]
 						],
 						"settings":
@@ -861,10 +801,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 858.0,
+						"translation.y": 677.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]

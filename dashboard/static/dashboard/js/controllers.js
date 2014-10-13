@@ -1,13 +1,29 @@
 var dashCtrl = angular.module('gatewayApp.controllers', []);
 
 
-dashCtrl.controller('DashboardViewCtrl', function ($scope, Alerts) {
-	
+dashCtrl.controller('DashboardViewCtrl', function ($scope, $interval, Alerts) {
 	$scope.alerts = [];
 
-	Alerts.query(function(response){
-	   $scope.alerts = response;
-    });
+	Alerts.query(function(response){ $scope.alerts = response});
+
+	$scope.feed = true;
+
+	$interval(function(){
+			if ($scope.feed == true){
+				Alerts.query(function(response){ 
+					$scope.alerts = response;
+				})
+			}
+		  },500
+	);
+
+	$scope.toggleFeed = function(){
+
+		$scope.feed = !$scope.feed;
+
+	};
+
+
 
 	$scope.predicate = '-id';
 

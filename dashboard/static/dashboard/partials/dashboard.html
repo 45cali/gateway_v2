@@ -8,6 +8,10 @@
           <label ng-repeat="(type, value) in alertTypes" ng-class="type">
              <input type="checkbox" ng-model="alertTypes[type]">&nbsp[[ type ]]  
           </label>
+          <label id="feed" ng-click="toggleFeed()">
+              <i ng-show="feed" class="fa fa-pause major">&nbsp pause feed</i>
+              <i ng-hide="feed" class="fa fa-play clear">&nbsp enable feed</i>
+          </label>
 
         </div>
       </h3>  
@@ -17,10 +21,7 @@
 
           <table id='table1'>
             <thead>
-              <tr>
-                <td>Alerts</td>
-              </tr>
-             
+                   
             
               <tr>
                 
@@ -45,6 +46,7 @@
                               | ticketStatusFilter:ticketTypes 
                               | alertStatusFilter:alertTypes" 
                   ng-class="alert.alert_status"
+                  ng-modal="feed"
                   ng-click="toggleModal(alert)" >
 
                 <td>[[ alert.id ]]</td>

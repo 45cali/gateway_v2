@@ -5,8 +5,4 @@ from django.shortcuts import render, redirect
 def index(request):
 	return render(request, 'dashboard/index.html')
 
-def apiRedirect(request):
-	return redirect('/api/get')
 
-def loginRedirect(request):
-	return redirect('/admin/')
